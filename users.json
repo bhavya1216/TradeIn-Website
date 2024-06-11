@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "639a899972eb8cf4052cff19"
+  },
+  "watchlist": [],
+  "firstName": "harshu",
+  "lastName": "sai",
+  "email": "sai@gmail.com",
+  "password": "$2b$10$Xw3hJJMCXie7129zJ/cyAu3G6Aw/cjDI68TvI8.aii2NcPRbFmMvu",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639a8ab672eb8cf4052cff43"
+  },
+  "watchlist": [
+    {
+      "$oid": "639a89e572eb8cf4052cff25"
+    }
+  ],
+  "firstName": "laxmi",
+  "lastName": "raj",
+  "email": "laxmi@gmail.com",
+  "password": "$2b$10$zEjdF54q4aSBQ5.lZwtCv.eeICIVRwD587IadgGf7WloN76PZ3L7q",
+  "__v": 0
+}]

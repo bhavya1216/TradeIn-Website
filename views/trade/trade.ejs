@@ -1,0 +1,35 @@
+
+<%- include('../partials/header.ejs') %>
+<div class="article">
+    <section class="item-info">
+        
+        <h2><%=item.title%></h2>
+        <h5>Posted at <%= item.createdAt.toLocaleString()%> by <%= item.author.firstName + ' ' + item.author.lastName %></h5>
+        <h4><%=item.category%></h4>
+        <div class="item-description"><%=item.content%></div>
+        <h4><%=item.status%></h4>
+        <% if(user == item.author._id) { %>
+            <form>
+                <button type="submit" formmethod="GET" formaction="/trades/<%=item.id %>/edit">Edit</button>
+                <button type="submit" formmethod="POST" formaction="/trades/<%=item.id %>?_method=DELETE">Delete</button>
+            </form>
+            <% }else{ %>
+                <form>
+                    <h4>Do you like this outfit?</h4>
+                    <% if(item.status == "Available") { %>
+                    <button type="submit" formmethod="GET" formaction="/users/item/<%=item.id %>">Trade</button>
+                    <% } %>
+                    <% if(watchListed) { %>
+                    <button type="submit" formmethod="POST" formaction="/users/item/offer/<%=item.id %>">Unwatch</button>
+                    <% } else { %>
+                    <button type="submit" formmethod="POST" formaction="/trades/<%=item.id %>/watch">Watch</button>
+                    <% } %>
+                </form>
+            <% } %>
+    </section>
+</div>
+<%- include('../partials/footer.ejs') %>
+
+    
+    
+

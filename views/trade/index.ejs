@@ -1,0 +1,21 @@
+
+    <%- include('../partials/header.ejs') %>
+    <div class="content">
+        <%if(categories.length){%>
+            <%categories.forEach(category => {%>
+                <h4><%=category%></h4>
+                <%if(items.length){%>
+                    <%items.forEach(item => {%>
+                        <% if(item.category === category) {%>
+                            <a href="/trades/<%=item.id%>"><p><%=item.title%></p></a>
+                        <% } %>
+                    <% }); %>
+                <% } else{ %>
+                    <p>There are no trades to display for the category <%=category%>.</p>
+                <% } %>
+            <% }); %>
+        <% } else{ %>
+            <p>There are no trades to display.</p>
+        <% } %>
+    </div>
+<%- include('../partials/footer.ejs') %>

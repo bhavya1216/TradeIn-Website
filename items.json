@@ -1,0 +1,206 @@
+[{
+  "_id": {
+    "$oid": "639a89e572eb8cf4052cff25"
+  },
+  "title": "Jeans",
+  "category": "Women",
+  "content": "This is very good outfit",
+  "status": "Traded",
+  "url": "asdfghjkl",
+  "author": {
+    "$oid": "639a899972eb8cf4052cff19"
+  },
+  "offered": false,
+  "initiated": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671072229044"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671077359118"
+    }
+  },
+  "__v": 0,
+  "offerby": {
+    "$oid": "639a89e572eb8cf4052cff25"
+  },
+  "offerto": {
+    "$oid": "639a95cf3911ccf54abc54d1"
+  }
+},{
+  "_id": {
+    "$oid": "639a95633911ccf54abc54cb"
+  },
+  "title": "Frock",
+  "category": "Girls",
+  "content": "cotton frock with floral work full sleeves",
+  "status": "Available",
+  "url": "https://www.google.com/aclk?sa=l&ai=DChcSEwjvl4WK2Pr7AhWQtsgKHVNpC3YYABAIGgJxdQ&sig=AOD64_2ia7nYTKy5JlLP5YTuRmgKtuM1nA&ctype=5&q=&ved=2ahUKEwiUjPyJ2Pr7AhXSTd8KHbEfAacQ9aACKAB6BAgHECw&adurl=",
+  "author": {
+    "$oid": "639a8ab672eb8cf4052cff43"
+  },
+  "offered": false,
+  "initiated": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671075171879"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671075171879"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639a95cf3911ccf54abc54d1"
+  },
+  "title": "Sarees",
+  "category": "Women",
+  "content": "long meter saree with good work and blouse as knoen",
+  "status": "Traded",
+  "url": "https://www.google.com/aclk?sa=l&ai=DChcSEwj0q4O82Pr7AhWXjMgKHRLrDVQYABAPGgJxdQ&sig=AOD64_3zlBah7vKEUCPQ9pmVyLq6UtkF_g&ctype=5&q=&ved=2ahUKEwjRnvm72Pr7AhWsdd8KHXdpD5EQ9aACKAB6BAgHEBo&adurl=",
+  "author": {
+    "$oid": "639a8ab672eb8cf4052cff43"
+  },
+  "offered": false,
+  "initiated": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671075279950"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671077359112"
+    }
+  },
+  "__v": 0,
+  "offerby": {
+    "$oid": "639a89e572eb8cf4052cff25"
+  },
+  "offerto": {
+    "$oid": "639a95cf3911ccf54abc54d1"
+  }
+},{
+  "_id": {
+    "$oid": "639a96383911ccf54abc54d4"
+  },
+  "title": "Shirts",
+  "category": "Women",
+  "content": "Full sleeve white shirt cropped",
+  "status": "Traded",
+  "url": "https://www.google.com/aclk?sa=l&ai=DChcSEwic7Njk2Pr7AhVpSnIKHdtyA40YABAMGgJxdQ&sig=AOD64_0Qr0pLWHEjjjTBJouQfSsth3gQyw&ctype=5&q=&ved=2ahUKEwjNg8_k2Pr7AhWSdd8KHYDhDaYQ9aACKAB6BAgIEBg&adurl=",
+  "author": {
+    "$oid": "639a8ab672eb8cf4052cff43"
+  },
+  "offered": false,
+  "initiated": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671075384313"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671077319450"
+    }
+  },
+  "__v": 0,
+  "offerby": {
+    "$oid": "639a96383911ccf54abc54d4"
+  },
+  "offerto": {
+    "$oid": "639a975c3911ccf54abc54f1"
+  }
+},{
+  "_id": {
+    "$oid": "639a966a3911ccf54abc54d7"
+  },
+  "title": "jeans",
+  "category": "Girls",
+  "content": "Cotton jeans with staringht cut bottom up",
+  "status": "Available",
+  "url": "https://media.istockphoto.com/id/477468278/photo/charlotte-uptown-skyline.jpg?s=612x612&w=0&k=20&c=SO9K43Oim__skCKzHBSh_uVnZTyVsZwD5ZsL1e2OUhU=",
+  "author": {
+    "$oid": "639a8ab672eb8cf4052cff43"
+  },
+  "offered": false,
+  "initiated": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671075434948"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671075434948"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639a971d3911ccf54abc54eb"
+  },
+  "title": "sarees",
+  "category": "Women",
+  "content": "pretty good saree with black borderfghjkl",
+  "status": "Available",
+  "url": "https://media.istockphoto.com/id/477468278/photo/charlotte-uptown-skyline.jpg?s=612x612&w=0&k=20&c=SO9K43Oim__skCKzHBSh_uVnZTyVsZwD5ZsL1e2OUhU=",
+  "author": {
+    "$oid": "639a899972eb8cf4052cff19"
+  },
+  "offered": false,
+  "initiated": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671075613070"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671076258511"
+    }
+  },
+  "__v": 0,
+  "offerby": {
+    "$oid": "639a971d3911ccf54abc54eb"
+  },
+  "offerto": {
+    "$oid": "639a96383911ccf54abc54d4"
+  }
+},{
+  "_id": {
+    "$oid": "639a975c3911ccf54abc54f1"
+  },
+  "title": "Skirts",
+  "category": "Girls",
+  "content": "mini skirt with floral work and short",
+  "status": "Traded",
+  "url": "https://media.istockphoto.com/id/477468278/photo/charlotte-uptown-skyline.jpg?s=612x612&w=0&k=20&c=SO9K43Oim__skCKzHBSh_uVnZTyVsZwD5ZsL1e2OUhU=",
+  "author": {
+    "$oid": "639a899972eb8cf4052cff19"
+  },
+  "offered": false,
+  "initiated": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671075676827"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671077319436"
+    }
+  },
+  "__v": 0,
+  "offerby": {
+    "$oid": "639a96383911ccf54abc54d4"
+  },
+  "offerto": {
+    "$oid": "639a975c3911ccf54abc54f1"
+  }
+}]

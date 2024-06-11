@@ -1,0 +1,23 @@
+<%- include('../partials/header.ejs') %>
+
+
+    <div class="container" style="background-color:#f1f1f1">
+        <form action="/trades" method="POST">
+            <label for="author">Author</label>&nbsp;
+            <input type="text" placeholder="author" name="author" class = "fixed-width" required ><br><br>
+            <label for="title">title</label>&nbsp;
+            <input type="text" placeholder="title" name="title" class = "fixed-width" required ><br><br>
+            <label for="category">category</label>&nbsp;
+            <input type="text" placeholder="category" name="category" class = "fixed-width" required ><br><br>
+            <label for="content">content</label>&nbsp;
+            <input type="text" placeholder="content" name="content" class = "fixed-width" required><br><br>
+            <label for="status">status</label>&nbsp;
+            <input type="text" placeholder="status" name="status" class = "fixed-width" required ><br><br>
+            <label for="url">url</label>&nbsp;
+            <input type="text" placeholder="url" name="url" class = "fixed-width" required ><br><br>
+
+
+            <button>submit</button>
+        </form>
+
+    </div>
